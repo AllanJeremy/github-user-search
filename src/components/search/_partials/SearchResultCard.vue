@@ -200,20 +200,8 @@ export default defineComponent({
 });
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 .card--search-result {
   height: 16rem;
-}
-
-a:not(.q-btn) {
-  // This 👇🏾 comes from quasar-variables
-  color: $dark;
-  text-decoration: none;
-
-  &:hover {
-    $color: $primary;
-    text-decoration: underline;
-    transition: 0.5s;
-  }
 }
 </style>

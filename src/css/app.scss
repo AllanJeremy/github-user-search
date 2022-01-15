@@ -1,4 +1,15 @@
-// app global css in SCSS form
+a:not(.q-btn) {
+  // This 👇🏾 comes from quasar-variables
+  color: $dark;
+  text-decoration: none;
+
+  &:hover {
+    $color: $primary;
+    text-decoration: underline;
+    transition: 0.5s;
+  }
+}
+
 .frost-light {
   background-color: rgba(255, 255, 255, 0.6) !important;
   backdrop-filter: blur(0.5rem);
