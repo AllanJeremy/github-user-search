@@ -2,7 +2,7 @@ import api from 'src/helpers/api';
 import { GithubUserApiResponse, GithubUserDetailResponse } from 'src/types';
 
 //
-const { authorizedGetRequest } = api('https://api.github.com', {
+const { getRequest } = api('https://api.github.com', {
   accept: 'application/vnd.github.v3+json',
 });
 
@@ -19,15 +19,14 @@ export default (usernameToUse?: string) => {
     const url = `/search/users?q=${searchText}&page=${
       page || DEFAULT_PAGE
     }&per_page=${resultsPerPage || DEFAULT_RESULTS_PER_PAGE}`;
-
-    return authorizedGetRequest<GithubUserApiResponse>(url);
+    return getRequest<GithubUserApiResponse>(url);
   };
 
   /** Get the details of a single user based on their username */
   const getGithubUserDetails = (username = '') => {
     const url = `/users/${usernameToUse || username}`;
 
-    return authorizedGetRequest<GithubUserDetailResponse>(url);
+    return getRequest<GithubUserDetailResponse>(url);
   };
 
   //* URL related
