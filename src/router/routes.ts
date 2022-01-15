@@ -6,7 +6,11 @@ const routes: RouteRecordRaw[] = [
     component: () => import('layouts/MainLayout.vue'),
     children: [
       { path: '', component: () => import('pages/Index.vue') },
-      { path: 'results', component: () => import('pages/Results.vue') },
+      {
+        path: 'results/:searchText',
+        component: () => import('pages/Results.vue'),
+        props: true,
+      },
     ],
   },
 
