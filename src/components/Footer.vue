@@ -30,7 +30,7 @@
           Typescript
         </a>
       </div>
-      <div class="col-12 col-sm-6 col-md-4 text-center">
+      <div class="col-6 col-md-4 text-center">
         <q-icon class="q-mr-xs" name="lab la-github-alt" size="sm"></q-icon>
         <a
           class="text-weight-bold"
@@ -40,7 +40,7 @@
           My GitHub
         </a>
       </div>
-      <div class="col-12 col-sm-6 col-md-4 text-center">
+      <div class="col-6 col-md-4 text-center">
         <q-icon class="q-mr-xs" name="las la-code" size="sm"></q-icon>
         <a
           class="text-weight-bold"
@@ -49,11 +49,6 @@
         >
           This project's code
         </a>
-      </div>
-      <div class="col-12 text-center">
-        <small>
-          <i>This project was started & completed on 15th Jan 2022</i>
-        </small>
       </div>
     </div>
   </q-footer>
