@@ -27,9 +27,8 @@
         </p>
       </section>
     </BackgroundImage>
-    <!-- Just got an idea!! 
-    Add the most popular accounts at the bottom
-   -->
+
+    <Footer />
   </q-page>
 </template>
 
@@ -38,11 +37,12 @@ import { defineComponent } from 'vue';
 
 //* Components
 import BackgroundImage from 'src/components/BackgroundImage.vue';
+import Footer from 'src/components/Footer.vue';
 import SearchInput from 'src/components/inputs/SearchInput.vue';
 
 export default defineComponent({
   name: 'HomePage',
-  components: { BackgroundImage, SearchInput },
+  components: { BackgroundImage, Footer, SearchInput },
   setup() {
     return {};
   },

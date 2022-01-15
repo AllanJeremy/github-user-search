@@ -24,6 +24,8 @@
     </h5>
 
     <SearchResultList :search-text="searchText" />
+
+    <Footer reveal />
   </q-page>
 </template>
 
@@ -32,12 +34,13 @@ import { defineComponent, ref } from 'vue';
 import { useRoute } from 'vue-router';
 
 //* Components
+import Footer from 'src/components/Footer.vue';
 import Logo from 'src/components/Logo.vue';
 import SearchInput from 'src/components/inputs/SearchInput.vue';
 import SearchResultList from 'src/components/search/SearchResultList.vue';
 
 export default defineComponent({
-  components: { Logo, SearchInput, SearchResultList },
+  components: { Footer, Logo, SearchInput, SearchResultList },
   setup() {
     const $route = useRoute();
     const searchText = ref($route.params?.searchText?.toString());
