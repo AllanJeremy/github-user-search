@@ -34,7 +34,9 @@ See [Configuring quasar.conf.js](https://quasar.dev/quasar-cli/quasar-conf-js).
 
 # Directory structure
 
-## This directory structure documentation has been copy pasted from the quasar documentation to help with navigating this project.
+This directory structure documentation has been copy pasted from the quasar documentation to help with navigating this project.
+
+---
 
 title: Directory Structure
 desc: The structure of a Quasar app with explanations for each folder and file.
