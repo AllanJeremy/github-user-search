@@ -2,7 +2,7 @@
   <q-footer class="frost-light q-pa-md">
     <div class="row q-col-gutter-md text-dark">
       <div class="col-12 col-sm-6 col-md-4 text-center">
-        Built by
+        👩🏾‍💻 by
         <a
           class="text-weight-bold"
           href="https://allanjeremy.com"
@@ -16,7 +16,7 @@
           href="https://v3.vuejs.org/"
           target="_blank"
         >
-          Vue 3.x </a
+          Vue3 </a
         >,
         <a class="text-weight-bold" href="https://quasar.dev" target="_blank">
           Quasar
@@ -27,7 +27,7 @@
           href="https://www.typescriptlang.org/"
           target="_blank"
         >
-          Typescript
+          TS
         </a>
       </div>
       <div class="col-6 col-md-4 text-center">
