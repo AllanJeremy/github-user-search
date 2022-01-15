@@ -94,7 +94,7 @@
         </div>
 
         <!-- Bio -->
-        <article>{{ githubUser?.bio }}</article>
+        <article class="ellipsis">{{ githubUser?.bio }}</article>
 
         <!-- Links (Twitter, website, email) -->
         <div class="q-mt-sm">
@@ -202,6 +202,6 @@ export default defineComponent({
 
 <style scoped>
 .card--search-result {
-  height: 16rem;
+  height: 18rem;
 }
 </style>
